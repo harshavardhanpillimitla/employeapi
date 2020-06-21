@@ -1,0 +1,38 @@
+[
+{
+  "model": "employee.employee",
+  "pk": 1,
+  "fields": {
+    "employeeId": "wtyad3a",
+    "employeeName": "harsha",
+    "timeZone": "America/Los_Angeles"
+  }
+},
+{
+  "model": "employee.employee",
+  "pk": 2,
+  "fields": {
+    "employeeId": "sdfsd34",
+    "employeeName": "ironman",
+    "timeZone": "Asia/Kolkata"
+  }
+},
+{
+  "model": "employee.activityperiods",
+  "pk": 1,
+  "fields": {
+    "EmployeeRef": 1,
+    "Start_Time": "2020-06-24T16:49:24Z",
+    "End_Time": "2020-07-03T16:49:31Z"
+  }
+},
+{
+  "model": "employee.activityperiods",
+  "pk": 2,
+  "fields": {
+    "EmployeeRef": 2,
+    "Start_Time": "2020-06-11T16:49:49Z",
+    "End_Time": "2020-07-03T16:49:54Z"
+  }
+}
+]
